@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+  background: url('../assets/background.jpeg') center/cover no-repeat fixed;
+  color: #fcfcfc;
+  line-height: 1.5;
+}
+
+/* Login Styles */
+.login-container {
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+  color: #000000;
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: #fff;
+  color: #000000;
+}
+
+button {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(92, 198, 255);
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+#goToLogin {
+  padding: 15px 30px; 
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#goToLogin:hover {
+  background-color: #00aaff;
+}
+
+/* Note Styles */
+.note-container {
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.note-content {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.note-header h1 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.note-container h3 {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+
+.note-container p {
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.note-container small {
+  font-size: 14px; 
+  color: #000000; 
+  margin-bottom: 10px; 
+}
+
+.note-content p{
+  color: #000000;
+  font-size: 20px;
+}
+
+.notes-page h1, .userInfo p {
+  color: #ffffff;
+}
+
+.sign-out-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000; 
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.editNoteButton,
+.deleteNoteButton {
+  margin-right: 5px; 
+}
